@@ -13,7 +13,7 @@ body{
   /*filter: blur(1px);*/
 }
 #backgpic{
-    width: auto;
+    width: 100%;
 }
 h1 {
   color:blueviolet;}
@@ -99,7 +99,7 @@ h1 {
     height: 100%;
     padding: 3px;
     text-align: center;
-    width: auto;
+    width: 100%;
 }
 #footer h3{
     font-size: 2.1rem;
