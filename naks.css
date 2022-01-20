@@ -1,9 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 1px;
+    font-family: 'Nunito';
+}
 #Welcome {
   background: url(./NAKURU\ COUNTY.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   /*filter: blur(1px);*/
+}
+#backgpic{
+    width: auto;
 }
 h1 {
   color:blueviolet;}
@@ -25,6 +35,7 @@ h1 {
     text-align: left;
     outline: none;
     font-size: 15px;
+    display: grid;
 }
 .active, .collapsible:hover{
     background-color: #ccc;
@@ -88,6 +99,7 @@ h1 {
     height: 100%;
     padding: 3px;
     text-align: center;
+    width: auto;
 }
 #footer h3{
     font-size: 2.1rem;
