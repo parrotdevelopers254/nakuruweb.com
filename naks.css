@@ -1,0 +1,128 @@
+#Welcome {
+  background: url(./NAKURU\ COUNTY.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /*filter: blur(1px);*/
+}
+h1 {
+  color:blueviolet;}
+#firstStatement {
+  text-align: center;
+  font-size: 3em;
+}
+#introductoryParagraph {
+  color: blue;
+  font-size: 1.5em;
+}
+.collapsible{
+    background-color: #eee;
+    color:#444;
+    cursor:pointer;
+    padding: 18px;
+    width: 100%;
+    boarder: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+.active, .collapsible:hover{
+    background-color: #ccc;
+    
+}
+.content{
+    padding: 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+.accordion__button{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #333333;
+    color: #ffffff;
+    text-align: left;
+    transition: background 0.2s;
+}
+.pics{
+    transition: transform 2s;
+    padding-right: 20px;
+}
+.pics:hover{
+    transform: scale(1.1);
+}
+.accordion__button::after{
+    content: '\25be';
+    float: right;
+    transform: scale(1.5);
+}
+.accordion__button--active + .accordion__content{
+    display: block;
+}
+.accordion__button--active{
+    background: #555555;
+}
+.accordion__button--active::after{
+    content: '\25b4';
+}
+.accordion__content{
+    /* overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s; */
+    padding: 0 15px;
+    font-family: sans-serif;
+    background: #eeeeee;
+    display: none;
+    overflow: auto;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: black;
+    height: 100%;
+    padding: 3px;
+    text-align: center;
+}
+#footer h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: #cacdd2;
+}
+#footer p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+.footer-bottom{
+    background: #000;
+    width: 95vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+    float:left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+    color: #44bae8;
+    font-size: 16px;
+    text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
